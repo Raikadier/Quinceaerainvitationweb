@@ -1,8 +1,8 @@
 import { motion } from 'motion/react';
 import { Crown, ChevronDown, Mail, Gift, Shirt } from 'lucide-react';
 import { CornerFloral } from './components/CornerFloral';
-import { FloatingButterfly } from './components/FloatingButterfly';
-import { GoldSparkle } from './components/GoldSparkle';
+import { WatercolorButterfly } from './components/WatercolorButterflies';
+import { WatercolorSparkle } from './components/WatercolorSparkles';
 import { EventCard } from './components/EventCard';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
@@ -76,23 +76,23 @@ export default function App() {
         </motion.div>
 
         {/* Floating butterflies around the name */}
-        <FloatingButterfly delay={0} top="25%" left="10%" duration={5} />
-        <FloatingButterfly delay={0.5} top="30%" left="85%" duration={4.5} />
-        <FloatingButterfly delay={1} top="45%" left="15%" duration={4} />
-        <FloatingButterfly delay={1.5} top="40%" left="80%" duration={5.5} />
-        <FloatingButterfly delay={2} top="55%" left="50%" duration={4.8} />
-        <FloatingButterfly delay={0.8} top="35%" left="50%" duration={5.2} />
-        <FloatingButterfly delay={1.8} top="50%" left="25%" duration={4.3} />
+        <WatercolorButterfly delay={0} top="25%" left="10%" duration={5} />
+        <WatercolorButterfly delay={0.5} top="30%" left="85%" duration={4.5} />
+        <WatercolorButterfly delay={1} top="45%" left="15%" duration={4} />
+        <WatercolorButterfly delay={1.5} top="40%" left="80%" duration={5.5} />
+        <WatercolorButterfly delay={2} top="55%" left="50%" duration={4.8} />
+        <WatercolorButterfly delay={0.8} top="35%" left="50%" duration={5.2} />
+        <WatercolorButterfly delay={1.8} top="50%" left="25%" duration={4.3} />
 
         {/* Gold sparkles */}
-        <GoldSparkle delay={0} top="20%" left="20%" size={12} />
-        <GoldSparkle delay={1} top="25%" left="75%" size={16} />
-        <GoldSparkle delay={0.5} top="48%" left="12%" size={14} />
-        <GoldSparkle delay={1.5} top="52%" left="88%" size={12} />
-        <GoldSparkle delay={2} top="60%" left="45%" size={18} />
-        <GoldSparkle delay={0.7} top="38%" left="35%" size={10} />
-        <GoldSparkle delay={1.2} top="42%" left="65%" size={13} />
-        <GoldSparkle delay={1.8} top="32%" left="55%" size={15} />
+        <WatercolorSparkle delay={0} top="20%" left="20%" size={12} />
+        <WatercolorSparkle delay={1} top="25%" left="75%" size={16} />
+        <WatercolorSparkle delay={0.5} top="48%" left="12%" size={14} />
+        <WatercolorSparkle delay={1.5} top="52%" left="88%" size={12} />
+        <WatercolorSparkle delay={2} top="60%" left="45%" size={18} />
+        <WatercolorSparkle delay={0.7} top="38%" left="35%" size={10} />
+        <WatercolorSparkle delay={1.2} top="42%" left="65%" size={13} />
+        <WatercolorSparkle delay={1.8} top="32%" left="55%" size={15} />
 
         {/* Scroll indicator */}
         <motion.div
